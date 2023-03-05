@@ -1,20 +1,13 @@
-let a = 10;
-let b = 20;
+a = 10;
+b = 20;
 
-function invertirNumeros(num1, num2) {
-    console.log('Los números ingresados inicialmente son: a=' + num1 + ' y b=' + num2);
-    let num3 = num1;
-    num1 = num2;
-    num2 = num3;
+console.log('Los números ingresados inicialmente son: a=' + a + ' y b=' + b);
 
-/* Consulta sobre return: si por ejemplo uso
-// return console.log('Los números invertidos son: ' + num2 + ' y ' + num1); 
-// o como lo tengo abajo, no veo diferencia. 
-// Entiendo que deberia ser return console...
-// cual seria la diferencia? o es indistinto? o cual seria lo correcto?
-*/
-    console.log('Los números invertidos son: a=' + num1 + ' y b=' + num2);
-    return;
+function invertirNumeros(param1, param2) {
+    param3 = param1;
+    param1 = param2;
+    param2 = param3;
+    return console.log('Los números invertidos son: a=' + param1 + ' y b=' + param2);
 }
 
 invertirNumeros(a, b);

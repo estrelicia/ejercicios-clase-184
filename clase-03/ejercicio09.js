@@ -3,6 +3,7 @@ let calificacion = Number(prompt('Ingresá la calificación obtenida para ver el
 /* Consulta: en este caso para transformar el string en número, utilice Number() pero la profe, en el video clase 3, 
 introducción JS (minuto 30:35) utilzó parseInt ().
 Cual sería la diferencia y cual es la mejor opción / práctica recomendada?
+vi este link: https://thisthat.dev/number-constructor-vs-parse-int/
 */
 
 console.log(typeof calificacion);
