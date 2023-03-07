@@ -6,8 +6,6 @@ Cual sería la diferencia y cual es la mejor opción / práctica recomendada?
 vi este link: https://thisthat.dev/number-constructor-vs-parse-int/
 */
 
-console.log(typeof calificacion);
-
 if ((calificacion >= 0) && (calificacion < 3)) { console.log('Muy deficiente'); }
 else
     if ((calificacion >= 3) && (calificacion < 5)) { console.log('Insuficiente'); }

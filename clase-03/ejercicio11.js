@@ -1,6 +1,6 @@
-let numero = prompt('Ingrese un número para calcular el factorial (debe ser menor a 10)');
+let numero = prompt('Ingrese un número (debe ser menor a 10)');
 
-function stairToHeaven(parametro) {
+function stairwayToHeaven(parametro) {
 
     if (numero >= 10) { console.log('El número debe ser menor a 10.'); }
 
@@ -21,4 +21,4 @@ function stairToHeaven(parametro) {
         } */
     }
 }
-stairToHeaven(numero);
+stairwayToHeaven(numero);
