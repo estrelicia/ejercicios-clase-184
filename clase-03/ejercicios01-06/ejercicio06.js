@@ -22,7 +22,7 @@ function sacarFactor(numero) {
             let i = numero - 1;
             for (i; i >= 1; i--) {
                 numero = numero * i;
-                console.log('iteración ' + i + ' > multiplica ' + numero + ' por ' + (i - 1));
+                // console.log('iteración ' + i + ' > multiplica ' + numero + ' por ' + (i - 1));
             }
         }
         console.log('El factorial de ' + factorial + ' es igual a: ' + numero);
